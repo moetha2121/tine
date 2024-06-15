@@ -1,0 +1,2 @@
+1. Not screen responsive
+2. The links will not open in another tab and will use the same tab

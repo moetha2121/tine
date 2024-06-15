@@ -1,0 +1,86 @@
+/*background image*/
+body{ /*background image*/
+    background-image: url('./portfolio\ background.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+}
+
+/*navbar*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2); /* Set the opacity of the background */
+}
+.navFace {
+    height: 80px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+.navFace:hover{
+    transform: scale(1.2); /* Magnify by 1.5 times on hover */
+}
+.nav-left{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5F0F6;
+}
+.nav-link{
+    position: relative;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+    color: #F5F0F6;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    transition: all 0.3s ease;
+    left: 50%;
+    bottom: -5px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%; /*circle shape*/
+    background-color: white;
+    opacity: 0;
+}
+.nav-link:hover::before{
+    opacity: 1;
+}
+
+/*css for button*/
+.carousel-control-prev, .carousel-control-next {
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Control buttons background color */
+    border-radius: 50%; /* Make buttons circular */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    opacity: 1;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    font-size: 24px; /* Adjust icon size as needed */
+}
+.carousel-control-prev {
+    left: 10px; /* Adjust left offset */
+}
+.carousel-control-next {
+    right: 10px; /* Adjust right offset */
+}
+
+img{
+    border-radius: 50px;
+    border: solid black 1px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--bootstrap import for nav bar-->
+    <link rel="stylesheet" href="./page3.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm p-3">
+        <div class="mt-2 mb-2">
+        <!--display-flex-->
+            <a class="ms-4" href="./my face for nav.png"><img class="navFace mr-3" src="./my face for nav.png"></a>
+            <!--upon clicking image, zoom in-->
+            <span class="nav-left ms-4">Tine Htet Moe Tha</span>            
+            <!--ms-margin start-->
+        </div>
+        <div class="ms-auto"> <!--starting of nav menu-->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a style="padding: 0;" class="nav-link mx-sm-3" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a style="padding: 0;" class="nav-link mx-sm-3" href="./page2.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a style="padding: 0;" class="nav-link mx-sm-3" href="./page3.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <section class="container-fluid">
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-4 p-5">
+                    <h2 style="text-align: center; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600;">Education</h2>
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="height: 400px;" src="./GMSS.png" alt="Secondary School(GMSS)" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.6);">
+                                    <h3 style="margin-bottom: 0;">Geylang Methodist School (Secondary)</h3>
+                                    <p style="margin-bottom: 0;">Jan 2018-Dec 2022 (O level, N level)</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 400px;" src="./singapore polytechnic.png" alt="Poly (SP)" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.6);">
+                                    <h3 style="margin-bottom: 0; height: 67px;">Singapore Polytechnic</h3>
+                                    <p style="margin-bottom: 0;">Apr 2023-Present</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <!--second column-->
+                <div class="col-md-4 p-5">
+                    <h2 style="text-align: center; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600;">Work Experiences</h2>
+                    <div id="carousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img style="height: 400px;" src="./Creamier.png" alt="pt job1" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.5);">
+                                    <h4 style="margin-bottom: 0;">June 2024-Present</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 400px;" src="./Wine Co.png" alt="pt job2" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.5);">
+                                    <h4 style="margin-bottom: 0;">Jul 2023-Jul 2024</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 400px;" src="./Timezone.png" alt="pt job3" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.5);">
+                                    <h4 style="margin-bottom: 0;">Apr 2023-May 2023</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img style="height: 400px;" src="./Samsung.png" alt="pt job4" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.5);">
+                                    <h4 style="margin-bottom: 0;">Feb 2023-Mar 2023</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <!--Third-->
+                <div class="col-md-4 p-5">
+                    <h2 style="text-align: center; color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600;">Projects done</h2>
+                    <div id="carousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.youtube.com/watch?v=SxUDn-KHGds"><img style="height: 400px;" src="./proj1.png" alt="Proj 1" class="d-block w-100"></a>
+                            <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.5);">
+                                <h5 style="margin-bottom: 0; height: 40px;">Linux Oracle Grub Password Recovery</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./Disk expansion.docx"><img style="height: 400px;" src="./proj2.png" alt="Proj 2" class="d-block w-100"></a>
+                            <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 0; left: 0; right: 0; border-radius:0px 0px 50px 50px; background-color: rgba(0, 0, 0, 0.5);">
+                                <h5 style="margin-bottom: 0; height: 40px;">Combining 2 disk spaces in a virtualised environment</h5>
+                            </div>
+                        </div>                    
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

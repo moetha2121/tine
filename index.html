@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--bootstrap import for nav bar-->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-PyslSyMlF6IMtGI1phROEhwR6D8zEeZ4v8/ebNjK/Ebl8yzRRPSS7stijy2HDDSP4jJso+ojlxKvXqInHFwuFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/> <!--CSS library-->
+    <title>Index Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm p-3">
+        <div class="mt-2 mb-2">
+        <!--display-flex-->
+            <a class="ms-4" href="./my face for nav.png"><img class="navFace mr-3" src="./my face for nav.png"></a>
+            <!--upon clicking image, zoom in-->
+            <span class="nav-left ms-4">Tine Htet Moe Tha</span>            
+            <!--ms-margin start-->
+        </div>
+        <div class="ms-auto"> <!--starting of nav menu-->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a style="padding: 0;" class="nav-link mx-sm-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a style="padding: 0;" class="nav-link mx-sm-3" href="page2.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a style="padding: 0;" class="nav-link mx-sm-3" href="page3.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+    <section class="container">
+        <div class="middleSection">
+            <h1>Hello, my name is Moe Tha</h1>
+            <span class="para-text">Welcome to my website. It was created as a personal project by yours truly to learn more about front-end. Feel free to explore!</span>
+            <span class="para-text"><br><br>Created using <span class="typewriter-effect"></span></span>
+        </div>
+    </section>
+    <footer>
+        <div class="div1 ml-4 p-3"> 
+            <span class="footer1" style="color: azure; font-size: 30px;">Contact information:<br>
+                <a href="https://www.linkedin.com/in/tine-htet-moe-tha-/"><span style="color: azure;" class="fab fa-linkedin me-2"></span></a>
+                <a href="#" onclick="notABoomerFunction()"><span style="color: azure;" class="fab fa-facebook-square me-2"></span></a>
+                <a href="./ig qr.png"><span style="color: azure;" class="fab fa-instagram me-2"></span></a>
+                <a href="./ws link.jpg"><span style="color: azure;" class="fab fa-whatsapp me-2"></span></a>
+            </span>
+        </div>                                                                                
+        <div class="div2 pl-4 pt-3" style="color: azure; font-size: larger;">
+            <span>
+                <span style="font-size: 25px;">All References used:<br></span>
+                <ul style="font-size: 15px;" class="refs">
+                    <li><a href="#" class="hover-ref">ChatGPT</a></li>
+                    <li><a href="#" class="hover-ref">W3 Schools</a></li>
+                    <li><a href="#" class="hover-ref">Codepen</a></li>
+                    <li><a href="#" class="hover-ref">Coolors (colour palette)</a></li>
+                    <li><a href="#" class="hover-ref">Youtube</a></li>
+                    <li><a href="#" class="hover-ref">Tiktok</a></li>
+                    <li><a href="#" class="hover-ref">Instagram</a></li>
+                    <li><a href="#" class="hover-ref">Reddit</a></li>
+                </ul>
+            </span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--Jquery (JS library)--> 
+    <script src="https://kit.fontawesome.com/87ef990ed5.js" crossorigin="anonymous"></script> <!--Font Awesome js(applications; whatsapp, ig...)-->
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/*whole body*/
+body, html {
+    display: grid; /*turns the body into a grid container*/
+}
+body{ /*background image*/
+    background-image: url('./abt\ me\ background.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    height: 100vh; /* Ensures the body takes the full height of the viewport */
+}
+
+/*navbar*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4); /* Set the opacity of the background */
+}
+.navFace {
+    height: 80px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+.navFace:hover{
+    transform: scale(1.2); /* Magnify by 1.5 times on hover */
+}
+.nav-left{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5F0F6;
+}
+.nav-link{
+    position: relative;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+    color: #F5F0F6;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    transition: all 0.3s ease;
+    left: 50%;
+    bottom: -5px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%; /*circle shape*/
+    background-color: white;
+    opacity: 0;
+}
+.nav-link:hover::before{
+    opacity: 1;
+}
+
+/*body*/
+.body_container{ /*changed name as container is already a bootstrap feature*/
+    overflow-y: auto; /*enables vertical scrolling within the content area*/
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.row{
+    margin: 0;
+}
+.col-md-6{
+    padding: 30px;
+    color: white;
+}
+.picContainer{
+    display: flex;
+    justify-content: center; 
+}
+.pic1{  
+    width: 350px;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+.pic2{
+    width: 350px;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+.pic3{
+    width: 380px;
+    border: solid black 1px;
+    border-radius: 30px;
+}
